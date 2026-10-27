@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_rounded_border"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tv_student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nguyen Van A"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_student_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã sinh viên: SV001"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tv_borrowed_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số sách đang mượn: 0"
+        android:textSize="12sp"
+        android:textColor="#2196F3"
+        android:paddingTop="2dp" />
+
+</LinearLayout>
